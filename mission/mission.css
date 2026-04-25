@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+main {
+    width: 500px;
+    margin: 20px auto;
+    padding: 100px;
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 14px;
+    color: #006eb6;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#line1{
+font-style: italic;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+p, li {
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+img {
+    display: block;
+    width: 150px;
+    margin: 30px auto 0 auto;
+}
