@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Basics</title>
+    <link href="meta-css.css" rel="stylesheet">
+
+</head>
+<body>
+    
+<div id="content">
+    <h1>HTML, CSS, and JS</h1>
+    
+    <p>The foundational technologies that power websites and web applications</p>
+    <hr>
+    <img src="https://wddbyui.github.io/wdd131/images/trifecta.png" alt="JS, CSS, and HTML logos">
+    <div id="topics">
+        <h2>HyperText Markup Language</h2>
+        <ul class="list">
+            <li>Defines the structure and content of a web page.</li>
+            <li>Without HTML there's nothing for the browser to display.</li>
+        </ul>
+        <h2>Cascading Style Sheets</h2>
+        <ul class="list">
+            <li>Controls how the HTML elements look.</li>
+            <li>Without CSS pages look plain and unstyled.</li>
+        </ul>
+        <h2>JavaScript</h2>
+        <ul class="list">
+            <li>Adds interactivity and dynamic behavior.</li>
+            <li>Without JavaScript nothing on the page responds dynamically to user actions.</li>
+        </ul>
+    </div>
+</div>
+    <script>
+        // access html in javascript use the document object 
+        // querySelector uses CSS selectors to find HTML elements
+        let firstlist = document.querySelector(".list");
+        firstlist.style.backgroundColor = "Red";
+        
+        // Targeting an element in HTML with the id of content and assigning it to a constant.
+        let content = document.getElementById("content");
+        content.style.backgroundcolor = "blue";
+
+        document.querySelector("img").setAttribute("src", "example.webp")
+        document.querySelector("img").setAttribute("alt", "new alt tag")
+
+        // Setting an elements HTML text content.
+        document.querySelector("h1").textContent = "Monster Trucks!";
+
+        console.log(document.getElementById("content"));
+
+
+    </script>       
+</body>
+</html>
