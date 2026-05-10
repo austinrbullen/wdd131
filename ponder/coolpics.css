@@ -1,4 +1,7 @@
+/* I think this is normalization */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -42,7 +45,7 @@ h2 {
 
 .coolpic img {
   width: 100%;
-  height: 300px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
 
