@@ -17,7 +17,7 @@ images.forEach(function(image) {
 
     viewer.innerHTML = `
       <button class="close-viewer">X</button>
-      <img src="images/norris-full.jpeg" alt="${image.alt}">
+      <img src="images/norris-full.jpg" alt="${image.alt}">
     `;
 
     document.body.appendChild(viewer);
