@@ -3,7 +3,7 @@ const character = {
     class: "Warrior",
     level: 1,
     health: 100,
-    image: "images/snortleblat.webp",
+    image: "images/myking.jpeg",
 
     attacked: function() {
         this.health -= 20;
