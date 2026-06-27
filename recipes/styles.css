@@ -71,6 +71,7 @@ h2 {
     gap: 1.5rem;
     border: 1px solid #777;
     padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 .recipe-image {
@@ -78,10 +79,16 @@ h2 {
     object-fit: cover;
 }
 
+.recipe-info {
+    flex: 1;
+}
+
 .tag {
     display: inline-block;
     border: 1px solid #222;
     padding: 0.3rem 0.6rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.3rem;
     text-transform: uppercase;
     font-size: 0.8rem;
 }
@@ -94,7 +101,6 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     gap: 1rem;
     font-size: 0.8rem;
 }
